@@ -27,27 +27,28 @@ export const Styles = createGlobalStyle`
         padding:0;
         border: 0;
         outline: 0;
-        background: #fff;
+        background: #000;
         overflow-x: hidden;
     }
 
-    a:hover {
-        color: #18216d;
+    a:hover:not(.CustomNavLinkSmall) {
+        color: #ff8c5a;
     }
 
     input,
     textarea {
         border-radius: 4px;
-        border: 0;
-        background: rgb(241, 242, 243);
+        border: 1px solid #444;
+        background: #222;
+        color: #fff;
         transition: all 0.3s ease-in-out;  
         outline: none;
         width: 100%;  
         padding: 1rem 1.25rem;
 
         :focus-within {
-            background: none;
-            box-shadow: #2e186a 0px 0px 0px 1px;
+            background: #333;
+            box-shadow: #ff8c5a 0px 0px 0px 1px;
         }
     }
 
@@ -58,7 +59,7 @@ export const Styles = createGlobalStyle`
     h5,
     h6 {
         font-family: 'Motiva Sans Bold', serif;
-        color: #18216d;
+        color: #fff;
         font-size: 56px;
         line-height: 1.18;
 
@@ -72,7 +73,7 @@ export const Styles = createGlobalStyle`
     }
 
     p {
-        color: #18216d;
+        color: #ccc;
         font-size: 21px;        
         line-height: 1.41;
     }
@@ -84,10 +85,10 @@ export const Styles = createGlobalStyle`
     a {
         text-decoration: none;
         outline: none;
-        color: #2E186A;
+        color: #ff8c5a;
 
-        :hover {
-            color: #2e186a;
+        :hover:not(.CustomNavLinkSmall) {
+            color: #ffa07a;
         }
     }
     

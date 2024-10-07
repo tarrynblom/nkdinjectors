@@ -13,6 +13,16 @@ export const HeaderSection = styled("header")`
 
 export const LogoContainer = styled(Link)`
   display: flex;
+  align-items: center;
+  width: 126px;
+  height: 80px;
+  overflow: hidden;
+
+  svg, img {
+    height: 100%;
+    width: auto;
+    max-width: none;
+  }
 `;
 
 export const NavLink = styled("div")`
@@ -59,9 +69,18 @@ export const Menu = styled("h5")`
 
 export const CustomNavLinkSmall = styled(NavLink)`
   font-size: 1.2rem;
-  color: #18216d;
-  transition: color 0.2s ease-in;
+  font-weight: 800;
+  color: #FFD700;
+  transition: all 0.3s ease-in-out;
   margin: 0.5rem 2rem;
+
+  &:hover,
+  &:active,
+  &:focus {
+    color: #FFD700 !important; // Use !important to override global styles
+    transform: scale(1.1);
+    text-decoration: none;
+  }
 
   @media only screen and (max-width: 768px) {
     margin: 1.25rem 2rem;

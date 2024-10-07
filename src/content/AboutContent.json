@@ -1,16 +1,16 @@
 {
-  "title": "Light, fast & responsive",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "title": "Exceptional Service, Backed by a Team that Cares",
+  "text": "Our commitment goes beyond just selling high-performance injectors. We believe in providing top-notch customer service to ensure your satisfaction. From the moment you reach out, our expert team is here to help you with any questions, offer guidance, and provide personalized support. We are passionate about your success and will go the extra mile to make sure you get the best experience possible.",
   "section": [
     {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
-      "icon": "notes.svg"
+      "title": "Why Choose Us?",
+      "content": "Our team of dedicated professionals is focused on delivering more than just products. We're committed to building lasting relationships with our customers through trust, knowledge, and reliability.",
+      "icon": "team.svg"
     },
     {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
-      "icon": "notes.svg"
+      "title": "Your Success is Our Mission",
+      "content": "Whether you're looking for advice on the best injector for your vehicle or need assistance after your purchase, we're always here to help. Count on us for expertise and personalized support every step of the way.",
+      "icon": "team.svg"
     }
   ]
 }

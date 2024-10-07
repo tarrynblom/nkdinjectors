@@ -2,14 +2,15 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const FooterSection = styled("footer")`
-  background: rgb(241, 242, 243);
+  background: gold;
   padding: 2.5rem 0;
 `;
 
 export const Title = styled("h4")`
   font-size: 22px;
   text-transform: capitalize;
-  color: #18216d;
+  color: black;
+  font-weight: bold;
 
   @media screen and (max-width: 414px) {
     padding: 1.5rem 0;
@@ -44,14 +45,15 @@ export const LogoContainer = styled("div")`
 `;
 
 export const Para = styled("div")`
-  color: #18216d;
+  color: black;
   font-size: 14px;
   width: 70%;
+  font-weight: bold;
 `;
 
 export const Large = styled(Link)`
   font-size: 16px;
-  color: #000;
+  color: black;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-transform: capitalize;
@@ -69,7 +71,7 @@ export const Large = styled(Link)`
 `;
 
 export const Chat = styled("p")`
-  color: #18216d;
+  color: black;
   max-width: fit-content;
   border-bottom: 1px solid #18216d;
   cursor: pointer;
@@ -129,7 +131,8 @@ export const FooterContainer = styled("div")`
 export const Language = styled("h4")`
   font-size: 22px;
   text-transform: capitalize;
-  color: #18216d;
+  color: black;
+  font-weight: bold;
 
   @media screen and (max-width: 414px) {
     padding: 1.5rem 0;
@@ -139,7 +142,8 @@ export const Language = styled("h4")`
 export const Label = styled("label")`
   font-size: 22px;
   text-transform: capitalize;
-  color: #18216d;
+  color: black;
+  font-weight: bold;
   display: block;
   margin-bottom: 2rem;
   font-family: "Motiva Sans Bold", serif;

@@ -1,12 +1,12 @@
 {
-  "title": "Landing page template for developers & startups",
-  "text": "Beautifully designed templates using React.js, ant design and styled-components! Save weeks of time and build your landing page in minutes.",
+  "title": "NKD Injectors",
+  "text": "High-performance fuel injectors designed to boost efficiency and unleash your engine's full potential.",
   "button": [
     {
-      "title": "Explore"
+      "title": "Contact Us"
     },
     {
-      "title": "Learn more",
+      "title": "About Us",
       "color": "#fff"
     }
   ]
