@@ -18,12 +18,19 @@ const Home = () => {
       <ScrollToTop />
       <ContentBlock
         direction="right"
+        title={ProductContent.title}
+        content={ProductContent.text}
+        icon="shop.png"
+        id="product"
+      />
+      {/* <ContentBlock
+        direction="right"
         title={IntroContent.title}
         content={IntroContent.text}
         button={IntroContent.button}
         icon="injectors.png"
         id="intro"
-      />
+      /> */}
       {/* <MiddleBlock
         title={MiddleBlockContent.title}
         content={MiddleBlockContent.text}
@@ -43,13 +50,6 @@ const Home = () => {
         content={MissionContent.text}
         icon="mission.png"
         id="mission"
-      />
-      <ContentBlock
-        direction="left"
-        title={ProductContent.title}
-        content={ProductContent.text}
-        icon="shop.png"
-        id="product"
       />
       <Contact
         title={ContactContent.title}
