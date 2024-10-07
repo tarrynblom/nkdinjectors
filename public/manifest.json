@@ -1,20 +1,20 @@
 {
-  "short_name": "Landy",
-  "name": "Landy - React Template",
+  "short_name": "NGK Injectors",
+  "name": "NGK Diesel Injectors",
   "icons": [
     {
-      "src": "img/icons/logo192.png",
+      "src": "img/svg/NKG.svg",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "type": "image/svg+xml"
     },
     {
-      "src": "img/icons/logo192.png",
-      "type": "image/png",
+      "src": "img/svg/NKG.svg",
+      "type": "image/svg+xml",
       "sizes": "192x192"
     },
     {
-      "src": "img/icons/logo512.png",
-      "type": "image/png",
+      "src": "img/svg/NKG.svg",
+      "type": "image/svg+xml",
       "sizes": "512x512"
     }
   ],

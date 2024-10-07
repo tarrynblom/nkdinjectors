@@ -52,24 +52,28 @@ const Footer = ({ t }: { t: TFunction }) => {
           <Row justify="space-between" gutter={[0, 32]}>
             <Col lg={8} md={8} sm={24} xs={24}>
               <Language>{t("Contact")}</Language>
-              <Large to="/">{t("Tell us everything")}</Large>
               <Para>
                 {t(`Do you have any question? Feel free to reach out.`)}
               </Para>
-              <a href="mailto:l.qqbadze@gmail.com">
-                <Chat>{t(`Let's Chat`)}</Chat>
+              <a href="mailto:sales@nkdinjectors.co.za">
+                <Chat>{t(`Email Us`)}</Chat>
               </a>
             </Col>
             <Col lg={8} md={8} sm={24} xs={24}>
               <Language>{t("Address")}</Language>
-              <Para>I dont know</Para>
-              <Para>Johannesburg</Para>
-              <Para>South Africa</Para>
+              <Para>26 Fred Nicholson Street</Para>
+              <Para>Wonderboom South</Para>
+              <Para>Pretoria</Para>
             </Col>
             <Col lg={8} md={8} sm={24} xs={24}>
               <Language>{t("Follow Us")}</Language>
-              <SocialLink href="https://www.facebook.com/yourpage" src="facebook.svg" />
-              <SocialLink href="https://wa.me/yourphonenumber" src="whatsapp.svg" />
+              <Para style={{ marginBottom: '1em' }}>
+                <SocialLink href="https://wa.me/27658610876" src="whatsapp.svg" />
+                WhatsApp: +27 65 861 0876
+              </Para>
+              <Para>{t("Coming Soon")}</Para>
+              <SocialLink href="#" src="facebook.svg" />
+              <SocialLink href="#" src="instagram.svg" />
             </Col>
           </Row>
           {/* <Row justify="space-between">

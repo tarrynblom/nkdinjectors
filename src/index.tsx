@@ -2,9 +2,12 @@ import { BrowserRouter } from "react-router-dom";
 import ReactDOM from "react-dom";
 import { I18nextProvider } from "react-i18next";
 import "antd/dist/antd.css";
-
+import emailjs from 'emailjs-com';
 import Router from "./router";
 import i18n from "./translation";
+
+// Initialize EmailJS
+emailjs.init(process.env.REACT_APP_EMAILJS_USER_ID!);
 
 const App = () => (
   <BrowserRouter>
